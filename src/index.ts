@@ -23,7 +23,7 @@ const wsServer = new WebSocketServer({
 
 // todo: fix the origin logic
 function originIsAllowed(origin: string): boolean {
-    const allowedOrigin = "https://hoppscotch.io"
+    const allowedOrigin = "https://duckduckgo.com"
     return allowedOrigin ===  origin;
 }
 
